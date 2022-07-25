@@ -50,10 +50,10 @@ export function getBuildURL() {
 
     switch (build) {
         case "dev":
-            return "http://local.revolt.chat:3001";
+            return "https://api.chat.gamesdrive.net";
         case "nightly":
-            return "https://nightly.revolt.chat";
+            return "https://api.chat.gamesdrive.net";
         default:
-            return "https://app.revolt.chat";
+            return "https://api.chat.gamesdrive.net";
     }
 }
