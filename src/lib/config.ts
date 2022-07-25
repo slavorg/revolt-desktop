@@ -50,10 +50,10 @@ export function getBuildURL() {
 
     switch (build) {
         case "dev":
-            return "https://api.chat.gamesdrive.net";
+            return "https://chat.gamesdrive.net";
         case "nightly":
-            return "https://api.chat.gamesdrive.net";
+            return "https://chat.gamesdrive.net";
         default:
-            return "https://api.chat.gamesdrive.net";
+            return "https://chat.gamesdrive.net";
     }
 }
